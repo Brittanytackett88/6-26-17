@@ -25,13 +25,30 @@
 #  counterpart2
 
 
-def mined3
+# def mined3
+# 	1.upto(100) do |var|
+# 		if var % 3==0
+# 			puts "mined"
+# 		else
+# 			puts var
+# 	end
+# end	
+# end
+# mined3			
+
+
+def mined3and5
 	1.upto(100) do |var|
-		if var % 3==0
-			puts "mined"
-		else
-			puts var
+		if var % 3==0  #if divisible by 3
+puts "mined"
+		  # if divisible by 5
+		elsif	 var % 5==0
+				puts "minds"
+			else
+				puts var
 	end
 end	
 end
-mined3			
+
+
+mined3and5
