@@ -37,18 +37,34 @@
 # mined3			
 
 
-def mined3and5
-	1.upto(100) do |var|
-		if var % 3==0  #if divisible by 3
-puts "mined"
-		  # if divisible by 5
-		elsif	 var % 5==0
-				puts "minds"
-			else
-				puts var
+# def mined3and5
+# 	1.upto(100) do |var|
+# 		if var % 3==0  #if divisible by 3
+# puts "mined"
+# 		  # if divisible by 5
+# 		elsif	 var % 5==0
+# 				puts "minds"
+# 			else
+# 				puts var
+# 	end
+# end	
+# end
+
+
+# mined3and5
+
+
+def  minedminds3_5_3and5 #starts function
+	1.upto(100) do |var| #counts up to 100 and determines var
+		if var % 3==0 and var % 5==0 # if the var is divisible by both 3 and 5
+			puts "mined minds"
+		elsif var % 5==0 # var divisible by 5
+			puts "minds"
+		elsif var % 3==0 # var divisible by 3
+			puts "mined"
+		else puts var # if not a word a number
+		end
 	end
-end	
 end
 
-
-mined3and5
+minedminds3_5_3and5
